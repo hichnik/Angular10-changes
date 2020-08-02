@@ -1,2 +1,2 @@
 # angular10-routing
-Changes to routing in Angular 10
+Routing changes in Angular 10
