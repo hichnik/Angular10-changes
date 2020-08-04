@@ -7,6 +7,9 @@ import { PagenotfoundComponent } from './pagenotfound.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AuthComponent } from './shared/auth/auth.component';
+import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -14,11 +17,13 @@ import { AuthComponent } from './shared/auth/auth.component';
     PagenotfoundComponent,
     AboutusComponent,
     ContactusComponent,
-    AuthComponent
+    AuthComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
