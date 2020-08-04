@@ -3,7 +3,17 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+
+    "paths": {
+      "@app/*": ["./src/app/*"],
+      "@auth/*": ["./src/app/shared/auth/*"],
+      "@common/*": ["./src/app/common/*"],
+      "@lib/*": ["./src/app/shared/lib/*"],
+      "@models/*": ["./src/app/shared/models/*"],
+      "@shared/*": ["./src/app/shared/*"]
+    }
+
   },
   "files": [
     "src/main.ts",
@@ -12,12 +22,5 @@
   "include": [
     "src/**/*.d.ts"
   ],
-  "baseUrl": "./src",
-  "paths": {
-    "@app/*": ["app/*"],
-    "@common/*": ["app/common/*"],
-    "@lib/*": ["app/shared/lib/*"],
-    "@shared/*": ["app/shared/*"],
-    "@models/*": ["app/shared/models/*"]
-  }
+
 }
