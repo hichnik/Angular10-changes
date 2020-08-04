@@ -12,12 +12,12 @@
   "include": [
     "src/**/*.d.ts"
   ],
-  "baseUrl": "src",
+  "baseUrl": "./src",
   "paths": {
     "@app/*": ["app/*"],
     "@common/*": ["app/common/*"],
-    "@lib/*": ["app/lib/*"],
+    "@lib/*": ["app/shared/lib/*"],
     "@shared/*": ["app/shared/*"],
-    "@models/*": ["app/models/*"]
+    "@models/*": ["app/shared/models/*"]
   }
 }
