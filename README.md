@@ -1,2 +1,2 @@
 # angular10-routing
-Routing changes in Angular 10
+Changes in Angular10 : Routing, code splitting strategies, lazy loading, component loading strategies
