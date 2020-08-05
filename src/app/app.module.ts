@@ -9,6 +9,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { AuthComponent } from './shared/auth/auth.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProgressBarComponent } from '@shared/app-progress-bar/app-progress-bar.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutusComponent,
     ContactusComponent,
     AuthComponent,
-    HomeComponent
+    HomeComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
