@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { PagenotfoundComponent } from './pagenotfound.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { AuthComponent } from './shared/auth/auth.component';
+import { AuthComponent } from '@auth/auth.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProgressBarComponent } from '@shared/app-progress-bar/app-progress-bar.component';
-import { MaxLengthDirective } from './shared/directives/max-length.directive';
+import { MaxLengthDirective } from '@directives/max-length.directive';
+import { UppercaseDirective } from '@directives/uppercase.directive';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MaxLengthDirective } from './shared/directives/max-length.directive';
     AuthComponent,
     HomeComponent,
     ProgressBarComponent,
-    MaxLengthDirective
+    MaxLengthDirective,
+    UppercaseDirective
   ],
   imports: [
     BrowserModule,

@@ -11,7 +11,8 @@
       "@common/*": ["./src/app/common/*"],
       "@lib/*": ["./src/app/shared/lib/*"],
       "@models/*": ["./src/app/shared/models/*"],
-      "@shared/*": ["./src/app/shared/*"]
+      "@shared/*": ["./src/app/shared/*"],
+      "@directives/*": ["./src/app/shared/directives/*"]
     }
 
   },
