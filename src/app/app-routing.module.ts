@@ -12,6 +12,7 @@ import { ContactusComponent } from '@app/contactus/contactus.component';
 const routes: Routes = [
   {path: 'about', component: AboutusComponent },
   {path: 'contact', component: ContactusComponent },
+  {path: 'contact/:id', component: ContactusComponent },
   {path: '', component: HomeComponent, pathMatch: 'full' },
   {path: '**', component: PagenotfoundComponent }
 ];
