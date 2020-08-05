@@ -10,6 +10,7 @@ import { AuthComponent } from './shared/auth/auth.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProgressBarComponent } from '@shared/app-progress-bar/app-progress-bar.component';
+import { MaxLengthDirective } from './shared/directives/max-length.directive';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ProgressBarComponent } from '@shared/app-progress-bar/app-progress-bar.
     ContactusComponent,
     AuthComponent,
     HomeComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    MaxLengthDirective
   ],
   imports: [
     BrowserModule,
